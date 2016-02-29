@@ -1,0 +1,42 @@
+{
+  "name": "echarts",
+  "version": "3.1.1",
+  "description": "A powerful charting and visualization library for browser",
+  "keywords": [
+    "visualization",
+    "canvas"
+  ],
+  "homepage": "http://echarts.baidu.com/",
+  "author": "",
+  "contributors": [
+    {
+      "name": "erik",
+      "email": "errorrik@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecomfe/echarts.git"
+  },
+  "scripts": {
+    "prepublish": "node build/amd2common.bundle.js"
+  },
+  "dependencies": {
+    "zrender": "^3.0.2"
+  },
+  "devDependencies": {
+    "escodegen": "^1.8.0",
+    "esprima": "^2.7.2",
+    "estraverse": "^4.1.1",
+    "etpl": "^3.0.1",
+    "optimist": "^0.6.1",
+    "uglify-js": "^2.6.1"
+  },
+  "readme": "# ECharts\n\n<a href=\"http://echarts.baidu.com\">\n    <img style=\"vertical-align: top;\" src=\"./asset/logo.png?raw=true\" alt=\"logo\" height=\"50px\">\n</a>\n\nECharts is a free, powerful charting and visualization library offering an easy way of adding intuitive, interactive, and highly customizable charts to your commercial products. It is written in pure JavaScript and based on <a href=\"https://github.com/ecomfe/zrender\">zrender</a>, which is a whole new lightweight canvas library.\n\n## Get echarts\n\n+ Download on [echarts.baidu.com](http://echarts.baidu.com/download.html)\n+ `npm install echarts --save`\n\n## Docs\n\n+ [Tutorial](http://echarts.baidu.com/tutorial.html)\n+ [API](http://echarts.baidu.com/api.html)\n+ [Option Manual](http://echarts.baidu.com/option.html)\n\nWe will release the English doc soon:)\n\n## License\nCopyright (c) 2013, Baidu Inc.\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n2. Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR\nANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\n(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;\nLOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND\nON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nThe views and conclusions contained in the software and documentation are those\nof the authors and should not be interpreted as representing official policies,\neither expressed or implied, of the FreeBSD Project.",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/ecomfe/echarts/issues"
+  },
+  "_id": "echarts@3.1.1",
+  "_from": "echarts@"
+}
